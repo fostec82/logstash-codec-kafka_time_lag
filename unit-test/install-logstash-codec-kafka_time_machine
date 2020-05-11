@@ -1,0 +1,5 @@
+#!/bin/bash
+set +x
+
+# Install our plugin with logstash.
+/usr/share/logstash/bin/logstash-plugin install /kafka-time-machine/logstash-codec-kafka_time_machine-0.1.0.gem

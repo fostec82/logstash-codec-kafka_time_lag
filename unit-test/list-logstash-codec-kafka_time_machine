@@ -1,0 +1,5 @@
+#!/bin/bash
+set +x
+
+# Install our plugin with logstash.
+/usr/share/logstash/bin/logstash-plugin list --verbose --group codec

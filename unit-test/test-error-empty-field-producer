@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/share/logstash/bin/logstash -f /kafka-time-machine/logstash-test-configs/logstash-error-empty-field-producer.conf

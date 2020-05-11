@@ -1,0 +1,7 @@
+#!/bin/bash
+set +x
+
+echo "Starting Docker unit test container..."
+
+# Run the docker image, mount the current directory as /kafka-time-machine, and attach to docker via bash to WORKDIR
+docker run -ti -v `pwd`:/kafka-time-machine logstash-codec-kafka-time-machine /bin/bash

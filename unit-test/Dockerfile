@@ -9,3 +9,6 @@ RUN apt-get -u update && \
   logstash \
   nano \
   vim
+
+# Define working directory.
+WORKDIR /kafka-time-machine
